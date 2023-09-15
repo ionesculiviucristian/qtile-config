@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "qtile-config"
+version = "0.1.0"
+description = ""
+authors = ["liviu <liviu.ionescu@uvision.ro>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+qtile = {git = "https://github.com/qtile/qtile", rev = "master"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
